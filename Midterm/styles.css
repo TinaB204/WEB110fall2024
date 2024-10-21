@@ -1,0 +1,82 @@
+/* Tina Brown, 10/09/24 */
+
+body {background-color: white;
+      color: #000;
+      background-image: linear-gradient(antiquewhite,  rgb(145, 189, 240));
+      background-repeat: no-repeat;
+}
+nav {background-color: transparent;
+     font-weight: bold;
+     margin-bottom: 10px;
+
+}
+nav ul {list-style-type: none;
+        text-align: center;
+        font-size: 1.2em;
+        margin: 0%;
+}
+nav li {display: inline;
+        background-color: rgb(209, 97, 50);
+        border-radius: 10px;
+}
+nav li:hover {background-color: white;
+}
+nav a {text-decoration: none;
+       padding: 5px;     
+}
+nav a :link {color: white
+}
+nav a:visited {color: rgb(6, 6, 95);
+}
+nav a:hover {color: red;
+}
+figure {width: 50%;
+        height: 50%;
+        margin: auto;
+        padding: 2px;
+        background-color: transparent
+}
+figure img {border: 10px solid rgb(18, 4, 109);
+}
+figcaption {text-align: center;
+            background-color: white;
+            font-size: 1em;
+            font-style: italic;
+            font-weight: bold;
+            padding: 2px;
+            font-family: papyrus, fantasy; 
+}
+h2 {text-align: left;}
+img {width: 100%;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+dt {font-weight: bold;
+}
+footer {text-align: center;
+}
+#wrapper {width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 300px;
+    max-width: 700px;
+    box-shadow: 10px 20px 1px rgb(109, 4, 49);
+    padding: 10px;
+    background-image: linear-gradient(rgb(145, 189, 240), antiquewhite);
+    opacity: 0.9;
+}
+h1 {background-color: #6666ff;
+    border: 5px ridge antiquewhite;  
+    text-align: center;
+    padding: 5px;
+    margin: 0 0 0 0;
+    border-radius: 0px;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+    text-shadow: 2px 2px 1px #fff;
+    background-image: radial-gradient(rgb(145, 189, 240), antiquewhite);
+    border: hidden
+}
