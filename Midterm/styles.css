@@ -21,7 +21,7 @@ nav li {display: inline;
 nav li:hover {background-color: white;
 }
 nav a {text-decoration: none;
-       padding: 5px;     
+       padding: .4em;     
 }
 nav a :link {color: white
 }
