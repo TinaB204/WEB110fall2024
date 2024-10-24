@@ -16,7 +16,7 @@ nav ul {list-style-type: none;
 }
 nav li {display: inline;
         background-color: rgb(209, 97, 50);
-        border-radius: 10px;
+        border-radius: 1em;
 }
 nav li:hover {background-color: white;
 }
